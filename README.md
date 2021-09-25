@@ -1,34 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project PENGLELLO
 
-## Getting Started
+![](https://media.vlpt.us/images/luckychdl/post/7a94b350-6358-4b45-b834-bbcb2da7c4df/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-09-25%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.11.25.png)
 
-First, run the development server:
+- **팀 명 :** Pengsooz ( 펭수즈 )
+- **프로젝트 명 :** PENGLELLO ( 펭렐로 )
+- **프로젝트 형태 :** 코드캠프 2기 팀프로젝트
+- **팀원 :** 프론트엔드 4명 (김순홍, 박충식, 신동원, 이주환)
+- **배포 링크 :** [배포 링크]
+- **서비스 소개영상 :** [유튜브 Link]
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+프로젝트 관리 어플 트렐로 클론을 통해 프로젝트 진행을 관리할 수 있는 서비스 구현
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### 사용 기술스택
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+![](https://media.vlpt.us/images/luckychdl/post/b884c73a-ac9c-4534-ad30-5e7bd668571f/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-09-25%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.01.49.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### WorkFlow
 
-## Learn More
+![](https://media.vlpt.us/images/luckychdl/post/c9ca496b-84af-4338-a075-c85adb1d4614/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-09-25%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.16.38.png)
 
-To learn more about Next.js, take a look at the following resources:
+### 주요기능
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. 소셜 로그인
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- 구글 소셜 로그인을 통해 회원가입 필요없이 간편하게 로그인 기능
+- 로그아웃 기능
 
-## Deploy on Vercel
+2. 워크스페이스
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 프로젝트 진행 사항을 기록할 수 있는 보드 생성 기능
+- 생성한 보드 목록 확인 기능
+- 보드의 제목과 배경 색상 설정 기능
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. 보드
+
+- 보드의 삭제와 수정 기능
+- 프로젝트 세부사항을 기록할 수 있는 바스켓 생성 기능
+- 바스켓 및 아이템 목록 확인 기능
+
+4. 바스켓
+
+- 바스켓 생성 및 수정 삭제 기능
+- Drag and Drop을 통한 바스켓과 아이템 커스터마이징 기능
+- 아이템 생성 기능
+
+4. 아이템 상세화면
+
+- 아이템 제목 및 상세내용 수정 기능
+- 아이템 내의 실시간 댓글 작성 기능
